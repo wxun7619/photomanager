@@ -1,4 +1,4 @@
-package com.wxun.photomanager.bean;
+package com.wxun.photomanager.entity;
 
 import lombok.Data;
 
@@ -6,4 +6,7 @@ import lombok.Data;
 public class User {
     String id;
     String name;
+    String six;
+    String age;
+    String memo;
 }
